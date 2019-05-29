@@ -14,7 +14,7 @@ namespace BDEquiposAltoConsumo.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Proyecto", "BAD115-2019 PRUEBA SIN APPSETTINGS.JSON" };
+            return new string[] { "Proyecto", "BAD115-2019" };
         }
 
         // GET api/values/5
@@ -28,14 +28,14 @@ namespace BDEquiposAltoConsumo.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
-            //holax
+         
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
-            //hola 2
+           
         }
 
         // DELETE api/values/5
